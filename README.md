@@ -15,3 +15,4 @@ This project wasn't too hard for me but I did come across some small errors that
 
 <img width="1595" alt="image" src="https://user-images.githubusercontent.com/99900195/158156934-49cc48c6-816f-4c24-a5b5-c01e281a254f.png">
 
+https://mudiauon.github.io/Colour-box/
