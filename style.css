@@ -1,0 +1,58 @@
+#content{
+  margin: 0px 100px;
+  height: 1200px;
+  width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas: "container container container"
+                       "redbox bluebox resetbox";
+  justify-content: center;
+}
+
+header{
+  margin: 50px;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Lato', sans-serif;
+}
+
+.container{
+  height: 100%;
+  border: 1px solid black;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+  grid-area: container;
+}
+
+.redbox{
+  height: 50px;
+  background-color: #F64D4D;
+  border: 1px solid black;
+  border-top: none;
+  border-right: none;
+  border-radius: 0px 0px 0px 5px;
+  color: white;
+  grid-area: redbox;
+}
+
+.bluebox{
+  height: 50px;
+  background-color: #285CFF;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: white;
+  grid-area: bluebox;
+}
+
+.resetbox{
+  height: 50px;
+  background-color: white;
+  border: 1px solid black;
+  border-top: none;
+  border-left: none;
+  border-radius: 0px 0px 5px 0px;
+  grid-area: resetbox;
+}
